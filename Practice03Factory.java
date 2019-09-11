@@ -1,6 +1,7 @@
 public class Practice03Factory {
 	
-	public Practice03Search getSearch(String searchtype) {
+	public Practice03Search getSearch(String searchtype)
+	{
 		if (searchtype.contains("linear"))
 			return new LinearSearch();
 		else if (searchtype.contains("binary") && searchtype.contains("recursive"))
